@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Roteiro de Teste - EvaSIM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    h2 {
+      color: #34495e;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .image-placeholder {
+      font-style: italic;
+      color: #888;
+    }
+    strong {
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Roteiro de Avaliação – Extensões do Simulador EvaSIM</h1>
+
+  <p>Este roteiro tem como objetivo auxiliar na execução dos testes das extensões do simulador <strong>EvaSIM</strong>. Durante o teste, será necessário realizar interações por meio de <strong>fala</strong>, <strong>reconhecimento de gestos</strong>, <strong>reconhecimento de emoções</strong> e <strong>leitura de QR Code</strong>.</p>
+
+  <p>Recomenda-se que a atividade seja realizada em um ambiente <strong>silencioso</strong> e com <strong>boa iluminação</strong> para garantir uma melhor experiência.</p>
+
+  <p><strong>Duração estimada:</strong> de 15 a 20 minutos.</p>
+
+  <h2>Passo a Passo</h2>
+  <ol>
+    <li>Responda a <strong>primeira</strong> e <strong>segunda seção</strong> do formulário disponibilizado para que a atividade possa ser realizada.</li>
+
+    <li>Após responder as duas seções, você poderá iniciar os testes.</li>
+
+    <li>Com o simulador aberto, clique no botão <strong>Power On</strong> para ligar o robô.</li>
+
+    <div class="image">
+        <img src="poweron.png"Imagem do botão Power On no simulador">  
+    </div>
+
+    <li>Com o robô ligado, clique no botão <strong>Import Script File...</strong>.</li>
+
+    <div class="image">
+        <img src="import.png"Imagem do botão Import no simulador">  
+    </div>
+
+    <li>Na janela que se abrir, clique no ícone conforme mostrado na imagem abaixo, clique em Codes-EvaML, selecione o arquivo <strong>Avaliacao_EvaML.xml</strong> e clique em <strong>Abrir</strong>.</li>
+
+    <div class="image">
+        <img src="searchfile.png"Imagem da busca de arquivo">  
+    </div>
+
+    <div class="image">
+        <img src="openfile.png"Imagem da abertura do arquivo">  
+    </div>
+
+    <li>Você deverá ver a seguinte imagem após o passo anterior:</li>
+    
+    <div class="image">
+        <img src="window.png"Imagem do terminal">  
+    </div>
+
+    <li>Em seu dispositivo móvel, acesse o link: <strong>[Colocar link aqui]</strong> para gerar o QR Code.</li>
+
+    <li>Na aba <strong>Running Mode</strong>, clique em <strong>Simulator</strong> para iniciar o teste.</li>
+
+    <div class="image">
+        <img src="runningmode.png"Imagem de rodar o arquivo">  
+    </div>
+
+    <li>Na primeira parte do teste, você será orientado a simular as interações por meio de janelas de texto e botões.</li>
+
+    <li>Após ouvir as instruções de conclusão da primeira parte do teste, será necessário ativar os botões para as interações multimodais:</li>
+
+    <div class="image">
+        <img src="chkbutton.png"Imagem dos botões do arquivo">  
+    </div>
+
+    <ul>
+      <li><strong>CheckButton Voice:</strong> responsável pela interação por voz.</li>
+      <li><strong>CheckButton HandPose:</strong> responsável pelo reconhecimento de gestos.</li>
+      <li><strong>CheckButton Emotion:</strong> responsável pelo reconhecimento de emoções.</li>
+      <li><strong>CheckButton qrRead:</strong> responsável pela leitura do QR Code.</li>
+      <li><strong>CheckButton userId:</strong> responsável pelo reconhecimento facial (não será utilizado neste teste).</li>
+    </ul>
+
+    <li>Conclua a segunda parte do teste e responda a <strong>seção 3</strong> do formulário para finalizar a atividade.</li>
+  </ol>
+
+</body>
+</html>
